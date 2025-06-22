@@ -30,3 +30,7 @@ print("The average of two no. is", a+b/2)'''
 a=int(input("Enter a number: "))
 print("The square of the number is:", a*a)
 
+table=int(input("Enter a number for its table: "))
+for i in range(1, 11):
+    print(table, "x", i, "=", table*i)
+
